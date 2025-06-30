@@ -8,7 +8,7 @@ import { startStandaloneServer } from "@apollo/server/standalone";
 import { resolvers } from "./resolvers.ts";
 
 //const MONGO_URL = Deno.env.get("MONGO_URL");
-const MONGO_URL = mongodb+srv://igarciadiegoc:12345@nebrijaclusterivn.e0n3s.mongodb.net/?retryWrites=true&w=majority&appName=NebrijaClusterIvn
+const MONGO_URL = "mongodb+srv://igarciadiegoc:12345@nebrijaclusterivn.e0n3s.mongodb.net/?retryWrites=true&w=majority&appName=NebrijaClusterIvn"
 
 if (!MONGO_URL) {
   throw new Error("Please provide a MONGO_URL");
